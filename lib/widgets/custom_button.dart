@@ -1,4 +1,5 @@
 import 'package:flutter/material.dart';
+import 'package:task/config/constants.dart';
 
 class CustomLoginButton extends StatelessWidget {
   final String label;
@@ -14,7 +15,7 @@ class CustomLoginButton extends StatelessWidget {
     required this.label,
     required this.icon,
     required this.onPressed,
-    this.backgroundColor = Colors.blue,
+    this.backgroundColor = kBlue,
     this.textColor = Colors.white,
     this.borderRadius = 24,
     this.outlined = false,
@@ -45,7 +46,6 @@ class CustomLoginButton extends StatelessWidget {
               label,
               style: TextStyle(
                 fontSize: 16,
-                fontWeight: FontWeight.w600,
                 color: textColor,
               ),
             ),
@@ -71,7 +71,6 @@ class CustomLoginButton extends StatelessWidget {
               label,
               style: TextStyle(
                 fontSize: 16,
-                fontWeight: FontWeight.w600,
                 color: textColor,
               ),
             ),
