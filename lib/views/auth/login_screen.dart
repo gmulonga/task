@@ -1,5 +1,6 @@
 import 'package:flutter/material.dart';
 import 'package:task/config/constants.dart';
+import 'package:task/routes/routes.dart';
 import 'package:task/widgets/custom_button.dart';
 
 class LoginScreen extends StatefulWidget {
@@ -262,6 +263,7 @@ class _LoginScreenState extends State<LoginScreen> {
                     icon: const Icon(Icons.apple, size: 16),
                     backgroundColor: kPurple,
                     onPressed: () {
+                      Navigator.pushNamed(context, AppRoutes.communityFeed);
                     },
                   ),
 
@@ -274,8 +276,7 @@ class _LoginScreenState extends State<LoginScreen> {
                     ),
                     backgroundColor: kBlue,
                     onPressed: () {
-                      // Handle Google login
-                    },
+                      Navigator.pushNamed(context, AppRoutes.communityFeed);                    },
                   ),
 
                   const SizedBox(height: 8),
@@ -284,6 +285,7 @@ class _LoginScreenState extends State<LoginScreen> {
                     label: "Continue with E-mail",
                     icon: const Icon(Icons.email_outlined, size: 16),
                     onPressed: () {
+                      Navigator.pushNamed(context, AppRoutes.communityFeed);
                     },
                     outlined: true,
                     textColor: Colors.white,
