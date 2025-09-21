@@ -15,6 +15,9 @@ The goal was to rebuild 1–2 mobile screens from the provided Figma design and 
 
 ---
 
+## Estimated Time
+- 2 - 3 hours
+
 
 ## 🚀 Setup Instructions
 1. Tech Stack
