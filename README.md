@@ -1,16 +1,33 @@
-# task
+# Flutter Developer Coding Task
 
-A new Flutter project.
+This repository contains my solution for the Flutter Developer coding task.  
+The goal was to rebuild 1–2 mobile screens from the provided Figma design and demonstrate UI fidelity and Flutter fundamentals.
 
-## Getting Started
+---
 
-This project is a starting point for a Flutter application.
+## 📌 Task Overview
+- Rebuild mobile screens from the provided Figma file.
+- Figma link: [https://www.figma.com/design/Phig12c9f0dOBzDkg3LVqX/Flutter-Developer--Coding-Task-Invitation?node-id=0-1041&t=vcpEhA4ULVi0NIyA-0)
+- Deliverables:
+    - GitHub repository link
+    - Screenshots comparing the UI to Figma
+    - This README with setup steps, assumptions, Flutter/Dart versions, and time spent
 
-A few resources to get you started if this is your first Flutter project:
+---
 
-- [Lab: Write your first Flutter app](https://docs.flutter.dev/get-started/codelab)
-- [Cookbook: Useful Flutter samples](https://docs.flutter.dev/cookbook)
 
-For help getting started with Flutter development, view the
-[online documentation](https://docs.flutter.dev/), which offers tutorials,
-samples, guidance on mobile development, and a full API reference.
+## 🚀 Setup Instructions
+1. Tech Stack
+- Flutter 3.32.2 • channel stable • https://github.com/flutter/flutter.git
+- Tools • Dart 3.8.1 • DevTools 2.45.1
+
+2. Clone the repository:
+   ```bash
+   git clone https://github.com/gmulonga/task.git
+   cd task
+   ```
+3. Run the project
+```bash
+flutter pub get
+flutter run
+```

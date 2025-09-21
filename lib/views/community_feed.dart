@@ -40,7 +40,6 @@ class _CommunityFeedScreenState extends State<CommunityFeedScreen> {
                   padding: const EdgeInsets.all(16.0),
                   child: Stack(
                     children: [
-                      /// Main Column content
                       Column(
                         crossAxisAlignment: CrossAxisAlignment.start,
                         children: [
@@ -111,7 +110,6 @@ class _CommunityFeedScreenState extends State<CommunityFeedScreen> {
                           const SizedBox(height: 12),
                           Row(
                             children: [
-                              // Profile avatars
                               SizedBox(
                                 width: 100,
                                 height: 24,
@@ -145,7 +143,6 @@ class _CommunityFeedScreenState extends State<CommunityFeedScreen> {
                                 ),
                               ),
                               const Spacer(),
-                              // Action Buttons
                               Row(
                                 children: [
                                   Container(
@@ -285,7 +282,6 @@ class _CommunityFeedScreenState extends State<CommunityFeedScreen> {
                       child: Column(
                         crossAxisAlignment: CrossAxisAlignment.start,
                         children: [
-                          // Post Header
                           Row(
                             children: [
                               Container(
@@ -361,7 +357,6 @@ class _CommunityFeedScreenState extends State<CommunityFeedScreen> {
 
                           const SizedBox(height: 12),
 
-                          // Post Text
                           RichText(
                             text: const TextSpan(
                               style: TextStyle(
@@ -394,7 +389,6 @@ class _CommunityFeedScreenState extends State<CommunityFeedScreen> {
                             ),
                             child: Stack(
                               children: [
-                                // Video Duration
                                 Positioned(
                                   bottom: 8,
                                   left: 8,
@@ -417,7 +411,6 @@ class _CommunityFeedScreenState extends State<CommunityFeedScreen> {
                                     ),
                                   ),
                                 ),
-                                // Sound Toggle
                                 Positioned(
                                   bottom: 8,
                                   right: 8,
@@ -440,8 +433,6 @@ class _CommunityFeedScreenState extends State<CommunityFeedScreen> {
                           ),
 
                           const SizedBox(height: 12),
-
-                          // Action Buttons
                           Row(
                             children: [
                               Row(
@@ -518,7 +509,6 @@ class _CommunityFeedScreenState extends State<CommunityFeedScreen> {
                       padding: const EdgeInsets.all(16),
                       child: Row(
                         children: [
-                          // Avatar/Profile Image
                           Container(
                             width: 40,
                             height: 40,
