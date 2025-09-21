@@ -14,16 +14,15 @@ class _LoginScreenState extends State<LoginScreen> {
 
   final List<Map<String, String>> languages = [
     {'name': 'English', 'code': 'en'},
-    {'name': 'Español (Spanish)', 'code': 'es'},
-    {'name': 'Français (French)', 'code': 'fr'},
-    {'name': 'Deutsch (German)', 'code': 'de'},
-    {'name': 'Italiano (Italian)', 'code': 'it'},
-    {'name': 'Português (Portuguese)', 'code': 'pt'},
-    {'name': 'Русский (Russian)', 'code': 'ru'},
-    {'name': '中文 (Chinese Simplified)', 'code': 'zh'},
-    {'name': '繁體中文 (Chinese Traditional)', 'code': 'zh-TW'},
-    {'name': '日本語 (Japanese)', 'code': 'ja'},
-    {'name': '한국어 (Korean)', 'code': 'ko'},
+    {'name': 'Español', 'code': 'es'},
+    {'name': 'Français', 'code': 'fr'},
+    {'name': 'German', 'code': 'de'},
+    {'name': 'Chinese', 'code': 'zh'},
+    {'name': 'Japanese', 'code': 'ja'},
+    {'name': 'Korean', 'code': 'ko'},
+    {'name': 'Italiano', 'code': 'it'},
+    {'name': 'Português', 'code': 'pt'},
+    {'name': 'Russian', 'code': 'ru'},
     {'name': 'العربية (Arabic)', 'code': 'ar'},
     {'name': 'हिन्दी (Hindi)', 'code': 'hi'},
     {'name': 'বাংলা (Bengali)', 'code': 'bn'},
@@ -106,7 +105,7 @@ class _LoginScreenState extends State<LoginScreen> {
                   Expanded(
                     child: ListView.builder(
                       itemCount: languages.length,
-                      padding: const EdgeInsets.symmetric(vertical: 10),
+                      padding: const EdgeInsets.only(left: 10, top:10, bottom: 10),
                       itemBuilder: (context, index) {
                         final language = languages[index];
                         final isSelected = selectedLanguage.contains(language['name']!);
@@ -115,7 +114,7 @@ class _LoginScreenState extends State<LoginScreen> {
                           title: Text(
                             language['name']!,
                             style: TextStyle(
-                              fontSize: 16,
+                              fontSize: 15,
                               fontWeight: FontWeight.w500,
                               color: kDeepPurple,
                             ),
